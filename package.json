@@ -1,4 +1,5 @@
 {
+  "homepage": "https://jarvisd86.github.io/Firebase2.5",
   "name": "firebase2.5",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
